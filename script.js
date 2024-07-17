@@ -53,7 +53,7 @@ btnRoll.addEventListener('click', function () {
 
     //Display Dice
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${dice}.png`;
+    diceEl.src = `images/dice-${dice}.png`;
 
     //check for role 1 ; if true swicth to next player
     if (dice !== 1) {
